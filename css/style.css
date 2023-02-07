@@ -141,3 +141,6 @@ hr{
     width: 20px;
     color: var(--colortext2)
 }
+#quarto{
+    margin: 20px 20px;
+}
