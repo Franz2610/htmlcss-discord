@@ -108,3 +108,18 @@ main img{
 p{
     font-size: 13px;
 }
+.violett{
+    background-color: var(--button);
+    color: var(--colortext2);
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 15px;
+    padding: .3rem;
+}
+#stars{
+    background-image: url(../img/stars.svg);
+    padding-bottom: 15px;
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
