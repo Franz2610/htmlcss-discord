@@ -10,7 +10,7 @@
     --colortext2: #FFFFFF;
     --bgcolorf: #23272A;
     --button: #7289DA;
-    --bgcolors: #f7eaea;
+    --bgcolors: #f1f1f1;
 }
 body{
     background-color: var(--colortext2);
@@ -128,4 +128,7 @@ p{
 }
 .first{
     color: var(--button)
+}
+#ita{
+    width: 20px;
 }
