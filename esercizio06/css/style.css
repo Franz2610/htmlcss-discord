@@ -1,0 +1,117 @@
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bgcolorh: #255EE9;
+    --colortext: #000000;
+    --colortext2: #FFFFFF;
+    --bgcolorf: #23272A;
+    --button: #7289DA;
+    --bgcolors: #f7eaea;
+}
+body{
+    background-color: var(--colortext2);
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-around;
+    min-width: 300px;
+    color: var(--colortext2);
+    font-family: 'Noto Sans', sans-serif;
+}
+.debug{
+    border: 1px solid black;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 5px;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+    padding: 1rem;
+}
+header{
+    background-image: url(../img/jumbo.png);
+    background-color: var(--bgcolorh);
+    min-width: 500px;
+    background-size: cover;  
+    height: 500px;  
+}
+.right{
+    width: 35%;
+    line-height: 50px;
+    padding-top: 30px;
+}
+.left{
+    width: 65%;
+}
+.reverse{
+    flex-flow: row-reverse;
+}
+footer{
+    background-color: var(--bgcolorf);
+}
+.center{
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+.bgcolor24{
+    background-color: var(--bgcolors);
+}
+.bgcolor13{
+    background-color: var(--colortext2);
+}
+.dflex{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-content: flex-start;
+}
+.btn{
+    background-color: var(--colortext2);
+    color: var(--colortext);
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 5px;
+}
+.dark{
+    background-color: var(--colortext);
+    color: var(--colortext2);
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 5px;
+}
+.content{
+    max-width: 700px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 150px;
+}
+main{
+    color: var(--colortext);
+}
+main img{
+    width: 750px;
+    padding: 20px;
+}
+p{
+    font-size: 13px;
+}
+.violett{
+    background-color: var(--colortext2);
+    color: var(--colortext);
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 5px;
+}
